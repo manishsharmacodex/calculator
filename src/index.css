@@ -77,4 +77,8 @@ p{
     .container{
         width: 300px;
     }
+
+    p{
+        font-size: 12px;
+    }
 }
