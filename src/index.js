@@ -16,7 +16,9 @@ addBtn.addEventListener("click",()=>{
     const newAddBtn2 = parseInt(number2.value);
 
     const total = newAddBtn + newAddBtn2;
-    result.innerHTML = `The Addition of ${newAddBtn} + ${newAddBtn2} is ${total}`;
+    setTimeout(() => {
+        result.innerHTML = `The Addition of ${newAddBtn} + ${newAddBtn2} is ${total}`;
+    }, 1000);
     
 })
 
@@ -30,7 +32,9 @@ subBtn.addEventListener("click",()=>{
     const newAddBtn2 = parseInt(number2.value);
 
     const total = newAddBtn - newAddBtn2;
-    result.innerHTML = `The Subtraction of ${newAddBtn} - ${newAddBtn2} is ${total}`;
+    setTimeout(() => {
+        result.innerHTML = `The Subtraction of ${newAddBtn} - ${newAddBtn2} is ${total}`;
+    }, 1000);
     
 })
 
@@ -44,7 +48,9 @@ mulBtn.addEventListener("click",()=>{
     const newAddBtn2 = parseInt(number2.value);
 
     const total = newAddBtn * newAddBtn2;
-    result.innerHTML = `The Multiplication of ${newAddBtn} * ${newAddBtn2} is ${total}`;
+    setTimeout(() => {
+        result.innerHTML = `The Multiplication of ${newAddBtn} * ${newAddBtn2} is ${total}`;
+    }, 1000);
     
 })
 
@@ -58,6 +64,7 @@ divBtn.addEventListener("click",()=>{
     const newAddBtn2 = parseInt(number2.value);
 
     const total = newAddBtn / newAddBtn2;
-    result.innerHTML = `The Division of ${newAddBtn} / ${newAddBtn2} is ${total}`;
-    
+    setTimeout(() => {
+        result.innerHTML = `The Division of ${newAddBtn} / ${newAddBtn2} is ${total}`;
+    }, 1000);
 })
